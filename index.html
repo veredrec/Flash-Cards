@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Flash Cards</title>
+  </head>
+  <body>
+
+    <section id="createCard" class="create-card">
+      <div class="front card">
+        <h2 class="card-title">Front</h2>
+        <input type="text" id="inputFront" class="input" placeholder="Card - Front">
+        <p id="contentFront" class="content-front hide-element"></p>
+        <!-- <button id="goToBack" class="go-to-back">Back</button> -->
+      </div>
+      <div class="back card">
+        <h2 class="card-title">Back</h2>
+        <input type="text" id="inputBack" class="input" placeholder="Card - Back">
+        <p id="contentBack" class="content-back hide-element"></p>
+        <!-- <button id="goToFront" class="go-to-front">Front</button> -->
+      </div>
+      <button id="submit" class="submit">Submit</button>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
